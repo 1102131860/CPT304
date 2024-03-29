@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T12:52:44.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="WOBi8bJ_K53s59gd006o" version="24.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-29T13:41:48.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Qicz38wThVsObeKZgzB4" version="24.2.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -306,18 +306,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WjS76D_g8jHAleD9pREW" name="Page-3">
-    <mxGraphModel dx="2250" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2250" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Book&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTitle()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAuthor()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="32" y="299" width="160" height="100" as="geometry" />
+          <mxGeometry x="30" y="300" width="160" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="NCgh0TRj1sP9_Znpv9uU-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Article&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- title: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- author: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- genre: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Article(): constructor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTitle(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAuthor(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getGenre(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-98" y="509" width="160" height="160" as="geometry" />
+        <mxCell id="NCgh0TRj1sP9_Znpv9uU-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Article&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- title: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- author: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- genre: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- state: BookState&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Article(): constructor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTitle(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAuthor(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getGenre(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals(): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setState(state)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ borrow(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ return(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="530" width="160" height="221" as="geometry" />
         </mxCell>
-        <mxCell id="NCgh0TRj1sP9_Znpv9uU-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Journal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;title: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- author: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- publication: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Journal(): constructor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTitle(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAuthor(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPublication(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals(): boolead&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="152" y="509" width="160" height="160" as="geometry" />
+        <mxCell id="NCgh0TRj1sP9_Znpv9uU-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Journal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;title: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- author: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- publication: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- state: BookState&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Journal(): constructor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTitle(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAuthor(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPublication(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals(): boolead&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setState(state): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ borrow(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ return(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="160" height="225" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-3" target="NCgh0TRj1sP9_Znpv9uU-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -353,25 +353,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Abstract Class&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BookFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createBook(): Book&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ abstract buildBook(): Book&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="480" width="170" height="90" as="geometry" />
+          <mxGeometry x="-500" y="499" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ArticleFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildBook()&lt;span style=&quot;background-color: initial;&quot;&gt;: Article&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="633" width="170" height="50" as="geometry" />
+          <mxGeometry x="-590" y="652" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;JournalFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildBook(): Journal&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="633" width="160" height="50" as="geometry" />
+          <mxGeometry x="-370" y="652" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-15" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-13" target="NCgh0TRj1sP9_Znpv9uU-12">
           <mxGeometry x="-0.267" y="29" width="160" relative="1" as="geometry">
-            <mxPoint x="-530" y="612" as="sourcePoint" />
-            <mxPoint x="-370" y="612" as="targetPoint" />
+            <mxPoint x="-590" y="631" as="sourcePoint" />
+            <mxPoint x="-430" y="631" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-17" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-14" target="NCgh0TRj1sP9_Znpv9uU-12">
           <mxGeometry x="-0.267" y="29" width="160" relative="1" as="geometry">
-            <mxPoint x="-435" y="662" as="sourcePoint" />
-            <mxPoint x="-335" y="552" as="targetPoint" />
+            <mxPoint x="-495" y="681" as="sourcePoint" />
+            <mxPoint x="-395" y="571" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -413,10 +413,10 @@
             <mxPoint x="950" y="348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCgh0TRj1sP9_Znpv9uU-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-12" target="NCgh0TRj1sP9_Znpv9uU-1">
+        <mxCell id="NCgh0TRj1sP9_Znpv9uU-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-12" target="NCgh0TRj1sP9_Znpv9uU-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-515" y="482" as="sourcePoint" />
-            <mxPoint x="32" y="339" as="targetPoint" />
+            <mxPoint x="110" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-33" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-19" target="NCgh0TRj1sP9_Znpv9uU-7">
@@ -434,35 +434,23 @@
             <mxPoint x="950" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCgh0TRj1sP9_Znpv9uU-41" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-1" target="NCgh0TRj1sP9_Znpv9uU-39">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="440" y="440" as="sourcePoint" />
-            <mxPoint x="1110" y="500" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NCgh0TRj1sP9_Znpv9uU-42" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-7" target="NCgh0TRj1sP9_Znpv9uU-39">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="770" y="364" as="sourcePoint" />
-            <mxPoint x="1323" y="689" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-43" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FineDecorator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calculateFine(): double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="214" width="160" height="76" as="geometry" />
+          <mxGeometry x="273.2" y="499" width="160" height="76" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-44" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;OverdueFineDecorator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- decoratedBook:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Book&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- finePerDay: double&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- transcations: List&amp;lt;BorrowingTranscattion&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ OverdueFineDeocrator(): Constructor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTitle(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAuthor(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calculateFine(): double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- calculateOverdueDays(): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-443.2" y="-30" width="246.4" height="160" as="geometry" />
+          <mxGeometry x="230" y="625" width="246.4" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="NCgh0TRj1sP9_Znpv9uU-46" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-43" target="NCgh0TRj1sP9_Znpv9uU-1">
+        <mxCell id="NCgh0TRj1sP9_Znpv9uU-46" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-43" target="NCgh0TRj1sP9_Znpv9uU-1">
           <mxGeometry x="1" y="155" width="160" relative="1" as="geometry">
             <mxPoint x="-250" y="220" as="sourcePoint" />
-            <mxPoint x="-40" y="310" as="targetPoint" />
+            <mxPoint x="120" y="410" as="targetPoint" />
             <mxPoint x="44" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCgh0TRj1sP9_Znpv9uU-48" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-44" target="NCgh0TRj1sP9_Znpv9uU-43">
+        <mxCell id="NCgh0TRj1sP9_Znpv9uU-48" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-44" target="NCgh0TRj1sP9_Znpv9uU-43">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-290" y="110" as="sourcePoint" />
-            <mxPoint x="210" y="230" as="targetPoint" />
+            <mxPoint x="321.2" y="365" as="sourcePoint" />
+            <mxPoint x="344" y="585" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SearchStrategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ search(books, keyword)&lt;span style=&quot;background-color: initial;&quot;&gt;: List&amp;lt;Book&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
@@ -487,7 +475,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BookState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ borrowBook(book): void&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ returnBook(book): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="265" y="30" width="160" height="100" as="geometry" />
+          <mxGeometry x="-70" y="800" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_i7M580fnvusXEtco-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AvailableState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ borrowBook(book): void&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ returnBook(book): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="970" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_i7M580fnvusXEtco-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AbsentState&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ borrowBook(book): void&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ returnBook(book): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="970" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_i7M580fnvusXEtco-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="p17_i7M580fnvusXEtco-1" target="NCgh0TRj1sP9_Znpv9uU-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-60" y="886" as="sourcePoint" />
+            <mxPoint x="90" y="956" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p17_i7M580fnvusXEtco-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="p17_i7M580fnvusXEtco-2" target="NCgh0TRj1sP9_Znpv9uU-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="1024.33" as="sourcePoint" />
+            <mxPoint x="90" y="956" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
