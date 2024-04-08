@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T08:01:12.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="CRMWFCg_f6UMr8mwi5yj" version="24.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-08T08:01:40.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="e7nArMWnDMt0wYqowBCz" version="24.2.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -332,46 +332,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getEmail(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getID(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ copy(): User&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals(that): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(message): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ toString(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1326" y="360" width="160" height="160.75" as="geometry" />
+          <mxGeometry x="1305" y="360" width="160" height="160.75" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Administrator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- email: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- bookCreator: BookFactory&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- userCreator: UserFactory&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Administrator():constructor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getEmail(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getID(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ copy(): Administrator&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;update(message): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals(that): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ toString(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createJournal(): Book&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createArticle(): Book&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createAdministrator(): User&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createStudent(): User&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1406" y="584" width="180" height="296" as="geometry" />
+          <mxGeometry x="1385" y="584" width="180" height="296" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- email: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ID: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Student(): constructor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getEmail(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getID(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ copy(): Student&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(message): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ equals(that): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ toString(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;borrowBook(book): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ returnBook(book): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1196" y="590" width="170" height="236" as="geometry" />
+          <mxGeometry x="1175" y="590" width="170" height="236" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-10" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NCgh0TRj1sP9_Znpv9uU-8" target="NCgh0TRj1sP9_Znpv9uU-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1026" y="554" as="sourcePoint" />
-            <mxPoint x="1186" y="554" as="targetPoint" />
+            <mxPoint x="1005" y="554" as="sourcePoint" />
+            <mxPoint x="1165" y="554" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NCgh0TRj1sP9_Znpv9uU-9" target="NCgh0TRj1sP9_Znpv9uU-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1556" y="564" as="sourcePoint" />
-            <mxPoint x="1426" y="524" as="targetPoint" />
+            <mxPoint x="1535" y="564" as="sourcePoint" />
+            <mxPoint x="1405" y="524" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Abstract Class&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BookFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createBook(): Book&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ abstract getBook(bookID, title, author): Book&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="764.5" width="270" height="88.5" as="geometry" />
+          <mxGeometry x="1724" y="770" width="270" height="88.5" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ArticleFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get&lt;span style=&quot;background-color: initial;&quot;&gt;Book(bookID, title, author): Article&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1640" y="912.5" width="220" height="53" as="geometry" />
+          <mxGeometry x="1619" y="912.5" width="220" height="53" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;JournalFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get&lt;span style=&quot;background-color: initial;&quot;&gt;Book(bookID, title, author): Journal&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="912.5" width="220" height="53" as="geometry" />
+          <mxGeometry x="1859" y="912.5" width="220" height="53" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-15" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NCgh0TRj1sP9_Znpv9uU-13" target="NCgh0TRj1sP9_Znpv9uU-12" edge="1">
           <mxGeometry x="-0.267" y="29" width="160" relative="1" as="geometry">
-            <mxPoint x="1676" y="891.5" as="sourcePoint" />
-            <mxPoint x="1836" y="891.5" as="targetPoint" />
+            <mxPoint x="1655" y="891.5" as="sourcePoint" />
+            <mxPoint x="1815" y="891.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-17" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NCgh0TRj1sP9_Znpv9uU-14" target="NCgh0TRj1sP9_Znpv9uU-12" edge="1">
           <mxGeometry x="-0.267" y="29" width="160" relative="1" as="geometry">
-            <mxPoint x="1771" y="941.5" as="sourcePoint" />
-            <mxPoint x="1871" y="831.5" as="targetPoint" />
+            <mxPoint x="1750" y="941.5" as="sourcePoint" />
+            <mxPoint x="1850" y="831.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -379,25 +379,25 @@
           <mxGeometry x="688.13" y="266.44" width="351.87" height="347.88" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Abstract Class&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UserFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createUser(): User&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ abstract getUser(name, email, ID): User&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="520.75" width="240" height="89.25" as="geometry" />
+          <mxGeometry x="1739" y="520.75" width="240" height="89.25" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AdministratorFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get&lt;span style=&quot;background-color: initial;&quot;&gt;User(name, email, ID): Administrator&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="666.75" width="230" height="56" as="geometry" />
+          <mxGeometry x="1859" y="666.75" width="230" height="56" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;StudentFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUser(name, email, ID): Student&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1660" y="666.75" width="200" height="56" as="geometry" />
+          <mxGeometry x="1639" y="666.75" width="200" height="56" as="geometry" />
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-22" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NCgh0TRj1sP9_Znpv9uU-20" target="NCgh0TRj1sP9_Znpv9uU-19" edge="1">
           <mxGeometry x="-0.267" y="29" width="160" relative="1" as="geometry">
-            <mxPoint x="1716" y="597.75" as="sourcePoint" />
-            <mxPoint x="1876" y="597.75" as="targetPoint" />
+            <mxPoint x="1695" y="597.75" as="sourcePoint" />
+            <mxPoint x="1855" y="597.75" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-23" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NCgh0TRj1sP9_Znpv9uU-21" target="NCgh0TRj1sP9_Znpv9uU-19" edge="1">
           <mxGeometry x="-0.267" y="29" width="160" relative="1" as="geometry">
-            <mxPoint x="1956" y="660.75" as="sourcePoint" />
-            <mxPoint x="1911" y="537.75" as="targetPoint" />
+            <mxPoint x="1935" y="660.75" as="sourcePoint" />
+            <mxPoint x="1890" y="537.75" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -534,24 +534,24 @@
         </mxCell>
         <mxCell id="JfRZdDT7idE_zgZVnq5y-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-19" target="NCgh0TRj1sP9_Znpv9uU-7">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2086" y="440" as="sourcePoint" />
-            <mxPoint x="1426" y="570" as="targetPoint" />
+            <mxPoint x="2065" y="440" as="sourcePoint" />
+            <mxPoint x="1405" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2106" y="565" />
-              <mxPoint x="2106" y="440" />
+              <mxPoint x="2085" y="565" />
+              <mxPoint x="2085" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JfRZdDT7idE_zgZVnq5y-15" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-19" target="NCgh0TRj1sP9_Znpv9uU-8">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1016" y="490" as="sourcePoint" />
-            <mxPoint x="1176" y="490" as="targetPoint" />
+            <mxPoint x="995" y="490" as="sourcePoint" />
+            <mxPoint x="1155" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JfRZdDT7idE_zgZVnq5y-16" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-12" target="NCgh0TRj1sP9_Znpv9uU-8">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="916" y="490" as="sourcePoint" />
-            <mxPoint x="1076" y="490" as="targetPoint" />
+            <mxPoint x="895" y="490" as="sourcePoint" />
+            <mxPoint x="1055" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JfRZdDT7idE_zgZVnq5y-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="p17_i7M580fnvusXEtco-25" target="NCgh0TRj1sP9_Znpv9uU-7">
@@ -565,8 +565,8 @@
             <mxPoint x="1100" y="490" as="sourcePoint" />
             <mxPoint x="260" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2120" y="809" />
-              <mxPoint x="2120" y="1050" />
+              <mxPoint x="2100" y="809" />
+              <mxPoint x="2100" y="1050" />
               <mxPoint x="-570" y="1050" />
               <mxPoint x="-570" y="440" />
             </Array>
