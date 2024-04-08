@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T07:06:42.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="K7v-mwpvjJWOp5CVBMg6" version="24.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-08T07:10:36.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Pl1Ep-kKSUFfY9TtAeg7" version="24.2.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,12 +413,6 @@
             <mxPoint x="950" y="433" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCgh0TRj1sP9_Znpv9uU-33" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NCgh0TRj1sP9_Znpv9uU-19" target="NCgh0TRj1sP9_Znpv9uU-7" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1250" y="704" as="sourcePoint" />
-            <mxPoint x="1900" y="471" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NCgh0TRj1sP9_Znpv9uU-39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BorrowingTransaction&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- borrowBook: Book&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- borrowUser: User&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- borrowDate: LocalDate&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- returnDate: LocalDate&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BorrowingTransaction(): constructor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBook(): Book&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUser(): User&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBorrowDate(): LocalDate&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getReturnDate(): LocalDate&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setReturnDate(returnDate): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calculateBorrowDays(): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="580" y="745" width="220" height="205" as="geometry" />
         </mxCell>
@@ -544,6 +538,22 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-340" y="650" as="sourcePoint" />
             <mxPoint x="-180" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JfRZdDT7idE_zgZVnq5y-2" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-19" target="NCgh0TRj1sP9_Znpv9uU-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1880" y="480" as="sourcePoint" />
+            <mxPoint x="2040" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JfRZdDT7idE_zgZVnq5y-6" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NCgh0TRj1sP9_Znpv9uU-44" target="NCgh0TRj1sP9_Znpv9uU-1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="490" y="520" as="sourcePoint" />
+            <mxPoint x="330" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="853" />
+              <mxPoint x="500" y="440" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
