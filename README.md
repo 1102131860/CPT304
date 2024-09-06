@@ -1,4 +1,4 @@
-# CPT304
+# CPT304 Library Management System with different Pattern Design
 
 This a library project that implements several pattern designs to achieve fast prototyping and steady operation.
 
